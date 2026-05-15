@@ -23,7 +23,7 @@
 
 "아빠, 저거 도깨비 통로야?"
 
-🏛 공간 자체가 작품이 되는 곳들도. 스카르파의 올리베티 네고치오에서 Leandro Erlich, Querini Stampalia에서 의외의 발견 Hans Hartung 〈Invisible Chord〉, Wardian case로 변신한 캐나다관에 띄운 거대 Victoria 수련(1851 Crystal Palace에 전시되었던 가계), 핀란드관(Aalto Pavilion 70주년)에서 베니스의 다섯 바람을 빨랫줄·바람 기계·어린이 목관 오케스트라로 옮긴 Jenna Sutela 〈Aeolian Suite〉, UNESCO 사무실 의자·집기가 그대로 전시 집기로 쓰인 크로아티아관, 키프로스관에서 €120 지른 99장 한정 바이닐, 그리고 베니스와 홍콩의 빨래 풍경을 라디오 야간 사운드로 잇는 Kingsley Ng의 〈Laundry Nocturne〉. 두 도시가 잠시 헷갈리던 그 시간이, 두 날의 마지막 톤이 됐습니다.
+🏛 공간 자체가 작품처럼 느껴지는 곳도 있었습니다. 스카르파의 올리베티 네고치오에서 Leandro Erlich, Querini Stampalia에서 의외의 발견 Hans Hartung 〈Invisible Chord〉, Wardian case로 변신한 캐나다관에 띄운 거대 Victoria 수련(1851 Crystal Palace에 전시되었던 가계), 핀란드관(Aalto Pavilion 70주년)에서 베니스의 다섯 바람을 빨랫줄·바람 기계·어린이 목관 오케스트라로 옮긴 Jenna Sutela 〈Aeolian Suite〉, UNESCO 사무실 의자·집기가 그대로 전시 집기로 쓰인 크로아티아관, 키프로스관에서 €120 지른 99장 한정 바이닐, 그리고 베니스와 홍콩의 빨래 풍경을 라디오 야간 사운드로 잇는 Kingsley Ng의 〈Laundry Nocturne〉. 두 도시가 잠시 헷갈리던 그 시간이, 두 날의 마지막 톤이 됐습니다.
 
 구독자분들은 메일함을 보세요. 신청은 프로필 링크. 노션 아카이브에도 업로드해두었습니다!
 
