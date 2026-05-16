@@ -58,19 +58,19 @@
 ## 첫 댓글 (EN 미러, 그대로 복붙용)
 
 ```
-#VeniceExpress 07: Two Days, Closed Doors, and a Goblin's Tunnel is out!
+#VeniceExpress 07: Two Days, Closed Doors, and a Goblin's Tunnel (out two days ago)!
 
-Three threads from May 9–10: closed doors, a child's rhythm, space and memory.
+May 9–10 unfolded as three threads: closed doors, a child's rhythm, and the places where space and memory meet.
 
-🚪 Sung Tieu's mosaic covers the Nazi-era GERMANIA at the German Pavilion. Dutch shutters drop hourly; the Russian sign reads "PLEASE DO NOT ENTER." Gabrielle Goliath's *Elegy* continues after South Africa cancelled its pavilion over a section honoring Palestinian poet Heba Abunada.
+🚪 At the German Pavilion's *Ruin*, Sung Tieu's mosaic covers the Nazi-era GERMANIA carved into the portico. Not hiding it, but laying another layer on top. The Dutch Pavilion's shutters drop on the hour; the Russian Pavilion's sign reads "PLEASE DO NOT ENTER." At the unofficial South African pavilion, Gabrielle Goliath's *Elegy* continues after the government cancelled the official pavilion over a section honoring Palestinian poet Heba Abunada, killed in Gaza.
 
-👶 Watching Chris Levine's green laser rise over the lagoon from my shoulder, Ether asked:
+👶 The route was actually set by two kids' legs, naps, and the weight of fatigue on my shoulder. Heading back that evening, Ether on my shoulder watched Chris Levine's green laser rise over the lagoon, and asked:
 
 "Daddy, is that a goblin tunnel?"
 
-🏛 Scarpa, Erlich, Hartung, Canada's giant water lily, Finland's five winds, Kingsley Ng stitching Venice and Hong Kong on nighttime radio.
+🏛 Some spaces felt like the work itself. Scarpa's Negozio Olivetti; an unexpectedly moving Hans Hartung at Querini Stampalia; a giant water lily floating in the Canadian Pavilion; the five winds of the Finnish Pavilion; and Kingsley Ng's *Laundry Nocturne* stitching Venice and Hong Kong through a nighttime radio sound.
 
-Full bilingual version on the Notion archive (link in bio).
+Full version in your inbox. To subscribe, link in bio. Past letters also up on the Notion archive!
 ```
 
 ---
