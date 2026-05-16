@@ -37,23 +37,20 @@
 ## 인스타 캡션 — 본문 (KR, 그대로 복붙용)
 
 ```
-#VeniceExpress 07: Two Days, Closed Doors, and a Goblin's Tunnel 발송 완료!
+#VeniceExpress 07: Two Days, Closed Doors, and a Goblin's Tunnel (그저께) 발송 완료! 🇬🇧 English in first comment ↓
 
-5/9·5/10 이틀을 시간순 대신 세 갈래로 묶었습니다. 닫힌 문, 아이의 리듬, 그리고 공간과 기억이 대화하는 자리.
+5월 9-10일 이틀을 시간순 대신 세 갈래로 묶었습니다. 닫힌 문, 아이의 리듬, 그리고 공간과 기억이 대화하는 자리입니다.
 
-🚪 독일관 〈Ruin〉에서 성티우의 모자이크가 파빌리온 포르티코의 나치 시기 비문 〈GERMANIA〉를 덮습니다. 가리는 대신 한 겹을 더 얹는 쪽. 네덜란드관은 매시간 강철 셔터가 내려와 안팎이 단절되고, 러시아관은 'PLEASE DO NOT ENTER'를 붙입니다. 비공식 남아공관에서는 Gabrielle Goliath의 〈Elegy〉가, 가자에서 살해된 팔레스타인 시인 헤바 아부 나다를 추모하는 섹션을 두고 정부가 공식관을 취소한 뒤에도 이어집니다.
+🚪 독일관 〈Ruin〉에선 성티우의 모자이크가 파빌리온 포르티코의 나치 시기 비문 〈GERMANIA〉를 덮습니다. 가리는 대신 한 겹을 더 얹는 쪽입니다. 네덜란드관은 매시간 강철 셔터가 내려와 안팎이 단절되고, 러시아관은 'PLEASE DO NOT ENTER'를 붙였습니다. 비공식 남아공관에서는 Gabrielle Goliath의 〈Elegy〉가 가자에서 살해된 팔레스타인 시인 헤바 아부 나다를 추모하는 섹션을 두고 정부가 공식관을 취소한 뒤에도 이어집니다.
 
-👶 그 이틀의 동선을 정한 건 사실 두 아이의 다리·낮잠·어깨에 쌓이는 피로감의 무게였어요. 5/10 저녁, 라군 위로 쏘아 올린 Chris Levine의 초록 레이저를 어깨에 매달린 첫째 이서가 한참 보다 물었어요:
+👶 이틀의 동선을 정한 건 사실 두 아이의 다리·낮잠·어깨에 쌓이는 피로감의 무게였어요. 숙소로 돌아가는 저녁, 라군 위로 쏘아 올린 Chris Levine의 초록색 레이저를 보고는 어깨에 매달린 첫째 이서가 이렇게 물었어요:
 
 "아빠, 저거 도깨비 통로야?"
 
-🏛 공간 자체가 작품처럼 느껴지는 곳도 있었습니다. 스카르파의 올리베티 네고치오, Querini Stampalia의 의외의 Hans Hartung, 캐나다관의 거대 Victoria 수련, 핀란드관의 다섯 바람, 그리고 베니스와 홍콩의 빨래를 라디오 야간 사운드로 잇는 Kingsley Ng의 〈Laundry Nocturne〉.
+🏛 공간 자체가 작품처럼 느껴지는 곳도 있었습니다. 스카르파의 올리베티 네고치오, Querini Stampalia에서의 만남이 의외로 좋았던 Hans Hartung, 캐나다관에 둥둥 떠 있는 거대한 수련, 핀란드관에서 마주친 다섯 갈래의 바람, 그리고 베니스와 홍콩의 빨래를 라디오 야간 사운드로 잇는 Kingsley Ng의 〈Laundry Nocturne〉까지.
 
-풀버전은 메일함, 신청은 프로필 링크, 노션 아카이브에도 있어요.
-
-🏷 @jaeyong.translates @good.dasol @labiennale @deutscherpavillon @sungtieu @dutch.pavilion.venice @gabriellegoliath @chrislevine @leandroerlichofficial @fondazionequerinistampalia @natgallerycan @abbasakhavan @frame_finland @jennasutela @hkmoa @kingsley_ng
-
-🇬🇧 English in first comment ↓
+풀버전은 메일함에서 확인 부탁해요. 신청은 프로필 링크. 지금까지 보내둔 레터는 노션 아카이브에도 남겨두었습니다!
+🏷 @good.dasol @labiennale @deutscherpavillon @sungtieu @dutch.pavilion.venice @gabriellegoliath @chrislevine @leandroerlichofficial @fondazionequerinistampalia @natgallerycan @abbasakhavan @frame_finland @jennasutela @hkmoa @kingsley_ng #베니스익스프레스
 ```
 
 ---
