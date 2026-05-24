@@ -1,9 +1,7 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { spawn } from "node:child_process";
 
-const client = new Anthropic();
-
-// 안정적인(거의 안 변하는) 큐레이션 지침 — 캐시 prefix로 사용.
-// 날짜/항목 등 매번 바뀌는 내용은 절대 여기 넣지 않는다(캐시 무효화 방지).
+// 안정적인(거의 안 변하는) 큐레이션 지침.
+// 날짜/항목 등 매번 바뀌는 내용은 절대 여기 넣지 않는다(api 엔진의 캐시 무효화 방지).
 const SYSTEM_PROMPT = `당신은 한국어 뉴스 라운드업을 만드는 큐레이션 에디터다.
 입력으로 여러 RSS 피드에서 모은 뉴스 항목 목록(제목, 출처, 링크, 짧은 스니펫)을 받는다.
 
@@ -40,25 +38,58 @@ function renderItems(items) {
     .join("\n");
 }
 
-export async function summarize(items, { model, maxPerSection, dateLabel }) {
-  const userText =
+function buildUserText(items, maxPerSection, dateLabel) {
+  return (
     `오늘 날짜: ${dateLabel}\n섹션당 최대 ${maxPerSection}개 항목.\n\n` +
-    `다음은 수집된 뉴스 항목이다:\n\n${renderItems(items)}`;
+    `다음은 수집된 뉴스 항목이다:\n\n${renderItems(items)}`
+  );
+}
 
+// claude CLI 헤드리스 호출 — 로그인된 구독 인증을 그대로 사용(추가 API 청구 없음).
+function runClaudeCLI(prompt, model) {
+  return new Promise((resolve, reject) => {
+    const args = ["-p", "--output-format", "text"];
+    if (model) args.push("--model", model);
+    const proc = spawn("claude", args, { stdio: ["pipe", "pipe", "pipe"] });
+    let out = "";
+    let err = "";
+    proc.stdout.on("data", (d) => (out += d));
+    proc.stderr.on("data", (d) => (err += d));
+    proc.on("error", (e) =>
+      reject(new Error(`claude CLI 실행 실패 (설치/로그인 확인): ${e.message}`)),
+    );
+    proc.on("close", (code) =>
+      code === 0 ? resolve(out.trim()) : reject(new Error(err.trim() || `claude 종료 코드 ${code}`)),
+    );
+    proc.stdin.write(prompt);
+    proc.stdin.end();
+  });
+}
+
+async function summarizeViaApi(userText, model) {
+  const { default: Anthropic } = await import("@anthropic-ai/sdk");
+  const client = new Anthropic();
   const response = await client.messages.create({
-    model,
+    model: model || "claude-opus-4-7",
     max_tokens: 16000,
     system: [
       { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
     ],
     messages: [{ role: "user", content: userText }],
   });
-
   const text = response.content
     .filter((b) => b.type === "text")
     .map((b) => b.text)
     .join("\n")
     .trim();
-
   return { text, usage: response.usage };
+}
+
+export async function summarize(items, { engine, model, maxPerSection, dateLabel }) {
+  const userText = buildUserText(items, maxPerSection, dateLabel);
+  if (engine === "api") {
+    return summarizeViaApi(userText, model);
+  }
+  const text = await runClaudeCLI(`${SYSTEM_PROMPT}\n\n${userText}`, model);
+  return { text, usage: null };
 }

@@ -45,7 +45,10 @@ export const settings = {
   timeWindowHours: Number(process.env.TIME_WINDOW_HOURS) || 24,
   // 피드당 최신 N개만 사용 — 입력 토큰 폭주 방지
   maxItemsPerFeed: 15,
-  model: process.env.NEWS_MODEL || "claude-opus-4-7",
+  // "cli": claude CLI(구독 인증, 추가 청구 없음) / "api": Anthropic API 키(별도 과금)
+  summaryEngine: (process.env.SUMMARY_ENGINE || "cli").toLowerCase(),
+  // 미지정 시 cli는 구독 기본 모델, api는 claude-opus-4-7 사용
+  model: process.env.NEWS_MODEL || null,
   // 섹션별 라운드업에 노출할 상위 항목 수 (모델에게 주는 가이드)
   maxPerSection: 8,
 };

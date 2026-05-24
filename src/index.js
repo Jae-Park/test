@@ -16,7 +16,8 @@ function requireEnv(name) {
 }
 
 async function main() {
-  requireEnv("ANTHROPIC_API_KEY");
+  // api 엔진만 키가 필요. cli 엔진은 로그인된 claude CLI 구독을 사용.
+  if (settings.summaryEngine === "api") requireEnv("ANTHROPIC_API_KEY");
   const token = dryRun ? null : requireEnv("TELEGRAM_BOT_TOKEN");
   const chatId = dryRun ? null : requireEnv("TELEGRAM_CHAT_ID");
 
@@ -40,16 +41,21 @@ async function main() {
     timeZone: "Asia/Seoul",
   });
 
-  console.log(`요약 중 (모델: ${settings.model})...`);
+  console.log(
+    `요약 중 (엔진: ${settings.summaryEngine}, 모델: ${settings.model || "기본값"})...`,
+  );
   const { text, usage } = await summarize(items, {
+    engine: settings.summaryEngine,
     model: settings.model,
     maxPerSection: settings.maxPerSection,
     dateLabel,
   });
-  console.log(
-    `토큰 사용: input=${usage.input_tokens}, output=${usage.output_tokens}, ` +
-      `cache_read=${usage.cache_read_input_tokens ?? 0}, cache_write=${usage.cache_creation_input_tokens ?? 0}`,
-  );
+  if (usage) {
+    console.log(
+      `토큰 사용: input=${usage.input_tokens}, output=${usage.output_tokens}, ` +
+        `cache_read=${usage.cache_read_input_tokens ?? 0}, cache_write=${usage.cache_creation_input_tokens ?? 0}`,
+    );
+  }
 
   await writeFile("roundup.txt", text, "utf8");
   console.log("roundup.txt에 저장됨.");

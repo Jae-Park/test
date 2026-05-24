@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 매일 오전 8시에 뉴스 라운드업 실행 (macOS LaunchAgent).
+     설치 전: 아래 PROJECT_PATH를 클론한 test 폴더의 절대경로로 바꾸세요.
+     로그인 사용자 세션에서 실행되어 claude CLI 구독 인증(keychain)에 접근합니다. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.newsroundup.daily</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>-lc</string>
+        <string>cd PROJECT_PATH &amp;&amp; npm start</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/newsroundup.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/newsroundup.err.log</string>
+</dict>
+</plist>
