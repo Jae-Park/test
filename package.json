@@ -1,0 +1,19 @@
+{
+  "name": "news-roundup-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "일반 뉴스 + 미술계 뉴스를 모아 한국어 라운드업으로 Telegram에 전송",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dry": "node --env-file=.env src/index.js --dry-run"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "grammy": "^1.30.0",
+    "rss-parser": "^3.13.0"
+  }
+}
