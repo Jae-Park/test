@@ -16,7 +16,6 @@ const ART_FEEDS_INTL = [
   { id: "hyperallergic", url: "https://hyperallergic.com/feed/" },
   { id: "artnews", url: "https://www.artnews.com/feed/" },
   { id: "artnet", url: "https://news.artnet.com/feed" },
-  { id: "theartnewspaper", url: "https://www.theartnewspaper.com/rss" },
 ];
 
 export const feeds = [
